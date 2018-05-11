@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>JS learning JS</title>
+</head>
+		
+<body>
+	<script type="text/javascript">
+	
+<!-- ПЕРЕМЕННЫЕ -->	
+	
+        var x=5; <!--переменные -->
+        var y;
+        var result;
+		y=5;
+		result= x + y;
+		  document.write(result); <!-- вывод -->
+		result*=x;
+		  document.write("<br/>" + result);
+		result++;
+		  document.write("<br/>" + result);
+		  document.write("<br/>" + x + "+" + y + "=" + (x + y)); <!-- вывод примера , получение  результа в примере в скобках () -->
+		var str_1 = Number("12");   <!-- Строчные значение  -->
+		var str_2 = Number("24");
+		  document.write("<br/>"+ (str_1 + str_2));
+		
+		var bool; 	<!--буленовые значения  -->
+		var z = 6;
+		var d = 7;
+		bool= z < d;
+		  document.write("<br/>" + bool);
+		  document.write("<br/>" + 10 + "%" + 7 + "=" + (10%7));  <!-- остаток при делении -->
+
+		
+<!-- УСЛОВНЫЕ ОПЕРАТОРЫ -->
+		
+		var x = 4;
+		var y = 5;
+		if (x != y) {
+		  document.write(" <br/> ");
+		  document.write("x < y");
+		  document.write(" <br/> ");
+		  document.write("4 < 5");
+		}
+	
+		var x = 4;
+		var y = 5;
+		if (x > y) 
+		  document.write("x > y");
+		else {
+		   document.write(" <br/> ");
+		   document.write("x < y");
+		   }
+		
+		var x = 5;
+		var y = 5;
+		if (x > y) 
+		  document.write("x > y");
+		else if ("x == y") {          <!-- Если добавлять еще одно условие используется оператор else if -->
+		  document.write(" <br/> ");
+		  document.write("x == y"); 
+		  }
+		else
+		  document.write("x < y");     <!-- последний оператор только else -->
+
+		
+		document.write(" <br/> ");
+		var result = 6;
+		switch(result)  {       
+		  case 1: document.write("result = 1"); break;   <!-- Переменная break отключает поиск по следущим кейсам -->
+		  case 2: document.write("result = 2"); break;
+		  case 3: document.write("result = 3"); break;
+		  case 4: document.write("result = 4"); break;
+		  case 5: document.write("result = 5"); break;
+		  default: document.write("result > 5");  
+		}  
+		
+		  
+		document.write(" <br/> "); 
+		x >= y ? document.write("YES") : document.write("NO"); 
+		
+		document.write(" <br/> ");
+		var x = 6;
+		var y = 5;
+		var bool= false;
+		if (x > y) 
+		    if(!bool)  <!-- ! задает отрицательное значениие, если мы задали bool false, то знак !bool превращает переменную в true -->
+		  document.write("x > y");
+		
+		
+		<!-- Как записать все в одном if-->
+		var x = 6;
+		var y = 5;
+		var bool= false;
+		
+		document.write(" <br/> "); 
+		if (x > y && bool == true); <!-- && и || или-->
+		  document.write("x > y");
+		
+		
+<!-- ОПЕРАТОРЫ ЦИКЛОВ --> 
+
+        document.write("<hr>");	
+		var i;
+		for(i = 0; i < 10; i++) {         <!-- Назначим переменную сразу внутри цикла for(var i = 0; i <= 10; i++)-->
+		if (i % 3 == 0 && i != 0) continue;
+		if (i == 8) break;                <!-- Выйти  из цикла на 8-->
+		  document.write(i + "Hello! <br/>"); 
+		}
+		
+        document.write("<hr>");	
+		var x = 0;
+		while (x < 10){
+		x += 2;
+		   document.write(x + "<br/>");
+		}
+
+		var y = 1000;
+	    do {
+		    document.write("Cycle is working");
+		} while(y < 100);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script> 	
+		
+</body>
+		
+		 
+</html>
