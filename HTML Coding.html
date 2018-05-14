@@ -4,14 +4,22 @@
 
 	<head>
 		<meta charset="UTF-8"/>
-		<title>my first html code</title> 
+		<title>my first html code</title>
 		<link rel="stylesheet" type="text/css" href="CSS Style.css">
 	</head>
-		<!-- 
+		<!--
 			установка бэка в файле css-->
-		<body>
-			<div class="div_1">
-			<!-- 
+	<body>
+     	<header>
+	   			<div class="div_0">
+ 					<img src="   " alt="   "	class="logo">
+
+    			</div>
+			</header>
+
+      <section>
+			  <div class="div_1">
+			<!--
 			Cсылки, жирный текст, наклон, перенос строки, параграфинг-->
 			 <p>1) Here I put some useful <a href="https://www.youtube.com/watch?v=5pBcKKiZSGE&t=1330s" class="lnk_1">youtube</a> links!<br/>
 			 Here I put some useful <a href="https://www.youtube.com/watch?v=5pBcKKiZSGE&t=1330s" class="lnk_2">youtube</a> links!<br/>
@@ -20,25 +28,31 @@
 			 3) Here I made the word <em>HTML</em> to be cursive.<br/></p>
 			 4) Here I placed sentences on the other string<br/>
 			 </div>
+		  </section>
 			 <hr>
+
+			 <section>
 			 <div class="div_2">
-			 <!-- 
+			 <!--
 			6 видов заголовков. Хедеров.-->
-		            <h1>5) Here I place the Header.</h1><br/>
+		      <h1>5) Here I place the Header.</h1><br/>
 					<h2>Here I place the second Header.</h2><br/>
 					<h3>Here I place the second Header.</h3>
 					<h4>Here I place the third Header.</h4>
 					<h5>Here I place the fourth Header.</h4>
 					<h6>Finally the fifth Header!</h6>
 		    </div>
+				</section>
 			<hr>
-			<!-- 
+			<!--
 			Зазмещаем иззображение из двух источников, интернет, комп.задаем размеры-->
 			6) <img	src="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/63/a0/32/63a03212-5028-9970-8809-e71bb8fac270/AppIcon-1x_U007emarketing-sRGB-85-220-5.png/1200x630bb.jpg" width="500px"/>
 					<img src="izibits documentation/logo hires.png" width="500px"/><br/>
 			<hr>
+
+      <section>
 			<div class="div_3">
-			<!-- 
+			<!--
 			8. Таблица- рамки,сделать заголовки <th></th> в таблице, выравнивание таблицы . -->
 			<table border="2" align="center" width="80%" cellspacing="0">
 					<tr >
@@ -72,7 +86,7 @@
 				<td>Table</td>
 					</tr>
 					<tr>
-				
+
 				<td>The</td>
 				<td>fifth</td>
 				<td>state</td>
@@ -82,10 +96,12 @@
 					</tr>
 			</table><br/>
 			</div>
+			</section>
+
 			<hr>
 			<center>9)<input value="Enter message here..." /><br/></center>
 			<hr>
-			<!-- 
+			<!--
 			8. Задаем размеры Text area.-->
 			<center>10)<textarea style="width:600px; height:200px">Тег определяет якорь. Якорь можно использовать двумя способами:
 			1. Создать ссылку на другой документ, используя атрибут href
@@ -94,99 +110,112 @@
 			Самым важным атрибутом элемента a является - href. Он определяет расположение документа по ссылке.
 			По умолчанию, ссылки во всех браузерах выглядят следующим образом:
 			- непосещенная ссылка подчеркнута и синяя
-			- посещенная ссылка подчеркнута и фиолетовая 
+			- посещенная ссылка подчеркнута и фиолетовая
 			- активная ссылка подчеркнута и красная </textarea></center><br/>
-			
-			<!-- 
+
+			<!--
 			для написанияформул, помещение текста в нижний или верхний регистр-->
 			H<sup>2</sup><sub>o</sub>
-			
-			<!-- 
+
+			<!--
 			11) Формирование списков-->
 			<br/>11)Списки. <ul type="disk"><br/>
 				<li>something 1</li>
 				<li>something 2</li>
 			</ul>
-			
+
 			<ul type="circle">
 				<li>something 1</li>
 				<li>something 2</li>
 			</ul>
-			
+
 			<ul type="square">
 				<li>something</li>
 				<li>something 2 </li>
 			</ul>
-			
-			
-			<!-- 
+
+
+			<!--
 			12. Задать списку нумерацию, с определенной цифры start="2"-->
-			<ol start="2"type="1"> 
+			<ol start="2"type="1">
 				<li>something interesting 1</li>
 				<li>something interesting 2</li>
 				<li>something interesting 3</li>
 				<li>something interesting 4</li>
-			</ol>	
-				
+			</ol>
+
 			<ol type="A">
 				<li>something interesting 1</li>
 				<li>something interesting 2</li>
 				<li>something interesting 3</li>
 				<li>something interesting 4</li>
 			</ol>
-			
+
 			<ol type="a">
 				<li>something interesting 1</li>
 				<li>something interesting 2</li>
 				<li>something interesting 3</li>
 				<li>something interesting 4</li>
 			</ol>
-			
+
 			<ol type="I">
 				<li>something interesting 1</li>
 				<li>something interesting 2</li>
 				<li>something interesting 3</li>
 				<li>something interesting 4</li>
 			</ol>
-			
+
 			<ol type="i">
 				<li>something interesting 1</li>
 				<li>something interesting 2</li>
 				<li>something interesting 3</li>
 				<li>something interesting 4</li>
 			</ol>
-			<!-- 
-			13. Список определений-->	
+			<!--
+			13. Список определений-->
 			<dl>
 				<dt>- first item</dt>
 					<dd>- first defenition of the item</dd>
 				<dt>- second item</dt>
 					<dd>- second defenition of the item</dd>
 			</dl>
-			<!-- 
-			14. Buttons, задаем размеры в HTML button style="width:200px;height:50px> и СSS-->	
+			<!--
+			14. Buttons, задаем размеры в HTML button style="width:200px;height:50px> и СSS-->
 			<center><button class="btn_escalation">Escalation</button>
 				<button class="btn_success">Success</button>
 				<button class="btn_info">Info</button>
 				<button class="btn_warning">Warning</button>
 				<button class="btn_danger">Danger</button>
 				<button class="btn_default"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/63/a0/32/63a03212-5028-9970-8809-e71bb8fac270/AppIcon-1x_U007emarketing-sRGB-85-220-5.png/1200x630bb.jpg" width="50px" class="round"/></button>
-			</center><br/>	
-			<!-- 
+			</center><br/>
+			<!--
 			15. Message -->
 			<div class="message success">All files has been deleted!!!</div><br/>
-			<div class="message failed">Files has not been deleted!!!</div>
-			
+			<div class="message failed">Files has not been deleted!!!</div><br/>
+
+			<!--
+			16. Выделение текста или элемента и предание ему свойств в CSS-->
+			<p class="text_1"><span class="letter">Р</span>азумные люди приспосабливаются к окружающему миру.</p>
+  <p class="text_1">Неразумные люди приспосабливают мир к себе.</p> <p class="text_1">Вот почему прогресс определяется
+  действиями неразумных людей.</p>
+  <p class="text_1">Бернард Шоу</p>
+
+
+	<!--
+	16. Подвал сайтаfooter-->
+    <footer>
+
+
+		</footer>
 
 
 
 
-			
+
+
+
+
+
+
 		</body>
-		
-		 
 </html>
-
-
-
-
