@@ -16,8 +16,6 @@ height:75px;
 height:75px;
 }
 
-
-
 header{
 height:150px;
 background-color:#f2f2f2;
@@ -160,13 +158,23 @@ background:none;
 margin: 0px 150px 0px 150px;
 }
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-family: Arial;
   }
+
+p {
+
+  margin: 0;
+}
 
 /* Третий контейнер с текстом */
 .container_3 {
 background: url(images/Windows_Homepage_Hero_RS4_1920.jpg) no-repeat center / cover;
 height: 600px;
+margin: 0px 150px 0px 150px;
+}
+.container_4 {
+height: 300px;
+background:none;
 margin: 0px 150px 0px 150px;
 }
