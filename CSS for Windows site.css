@@ -7,11 +7,21 @@ margin: 0;
 
 div {
 box-sizing: border-box;
+border: solid 1px black;
 }
+.menu_Mcr {
+height:75px;
+}
+.menu_Wds{
+height:75px;
+}
+
+
 
 header{
 height:150px;
 background-color:#f2f2f2;
+margin: 0px 150px 0px 150px;
 }
 
 nav {
@@ -20,7 +30,7 @@ float: left;
 }
 .menu_1 {
 margin-right: 30px;
-margin-top: 25px;
+margin-top: 27px;
 display: block;
 }
 .menu_1 li {
@@ -33,16 +43,67 @@ margin-right: 41px;
   text-decoration: none;
   text-transform: uppercase;
 }
-
 .logo_1 {
 height:25px;
-padding: 20px 0 20px 150px; /* 10 пиксл добавляются сверху, справа , снизу, слева,  */
+padding: 20px 0 20px 10px; /* 10 пиксл добавляются сверху, справа , снизу, слева,  */
 margin: 0 auto;
 float:left;
 }
+.btn_Mcr {
+float: right;
+margin: 20px 10px 40px 0px;
+}
+.btn_cart{
+  background-color: #ffffff;
+  color: #737373;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  font-size: 5px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+   .search_line {
+    background-image: url(images/searchtool1.png);
+    background-repeat: no-repeat; /*Убираем повтор изображения*/
+    background-position: 190px; /*Позиционируем*/
+    outline: none; /*убираем стандартную обводку браузера*/
+    -moz-border-radius: 5px; /*закругляем углы для Mozilla*/
+    -webkit-border-radius: 5px; /*закругляем углы для Chrome, Safari*/
+    border-radius: 5px; /*закругляем углы для остальных браузеров*/
+    padding-right: 20px; /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
+    height: 30px; /*высота строки ввода*/
+    width: 200px;
+    font-size: 14px; /*размер шрифта*/
+    font-family: Arial;
+    color:#737373;
+}
+
+
+.btn_enter {
+  border: none;
+  color: #737373;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  }
+  .btn_enter:hover {
+  background-color: none;
+  color: #006699;
+  border: none;
+}
+
 .menu_2 {
 margin-right: 30px;
-margin-top: 40px;
+margin-top: 37px;
 display: block;
 }
 .menu_2 li {
@@ -51,31 +112,61 @@ display: block;
 margin-right: 50px;
 }
 .menu_2 a {
-  color:#737373;
+  color: #0088cc;
   text-decoration: none;
-  text-transform: none;
+  text-transform: uppercase;
 }
 .logo_2 {
 height:25px;
-padding: 30px 0 20px 15px; /* 10 пиксл добавляются сверху, справа , снизу, слева,  */
-margin: 0 auto;
+padding: 30px 0 20px 10px; /* 10 пиксл добавляются сверху, справа , снизу, слева,  */
 float:left;
 }
 
+.buy {
+  float: right;
+  margin: 20px -95px 40px 0px;
+}
+.btn_buy10 {
+    background-color: #0088cc; /* Blue */
+    border: none;
+    color: White;
+    margin: 0 auto;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+    .btn_buy10:hover {
+    background-color: #006699;
+        color: white;
+    border: none;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+
+    }
+
+
+
 /* Второй Контейнер  с текстом */
 .container_2 {
+height: 300px;
 background:none;
-padding: 10px;
-margin: 10px;
+margin: 0px 150px 0px 150px;
 }
 h1 {
   font-size: 50px;
   font-family: Arial;
   }
+
 /* Третий контейнер с текстом */
 .container_3 {
 background: url(images/Windows_Homepage_Hero_RS4_1920.jpg) no-repeat center / cover;
 height: 600px;
-padding: 150px;
-margin: 150px;
+margin: 0px 150px 0px 150px;
 }
