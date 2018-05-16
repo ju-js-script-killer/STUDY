@@ -7,7 +7,7 @@ margin: 0;
 
 div {
 box-sizing: border-box;
-border: solid 1px black;
+
 }
 .menu_Mcr {
 height:75px;
@@ -18,7 +18,6 @@ height:75px;
 
 header{
 height:150px;
-background-color:#f2f2f2;
 margin: 0px 150px 0px 150px;
 }
 
@@ -47,22 +46,29 @@ padding: 20px 0 20px 10px; /* 10 пиксл добавляются сверху,
 margin: 0 auto;
 float:left;
 }
+
 .btn_Mcr {
 float: right;
-margin: 20px 10px 40px 0px;
+
+
 }
 .btn_cart{
-  background-color: #ffffff;
-  color: #737373;
-  margin: 0 auto;
-  text-align: center;
-  display: inline-block;
-  font-size: 5px;
-  border-radius: 4px;
+  background-color: #f2f2f2;
+  background-image: url(images/cart.png);
+  background-repeat: no-repeat;
+  background-position: 100% ;
+  height: 16px;
+  width: 10px;
+  border-radius: none;
   border: none;
   cursor: pointer;
   outline: none;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
 }
+
 
    .search_line {
     background-image: url(images/searchtool1.png);
@@ -72,36 +78,39 @@ margin: 20px 10px 40px 0px;
     -moz-border-radius: 5px; /*закругляем углы для Mozilla*/
     -webkit-border-radius: 5px; /*закругляем углы для Chrome, Safari*/
     border-radius: 5px; /*закругляем углы для остальных браузеров*/
+    border-color:#737373;
+    border: 1px solid;
     padding-right: 20px; /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
     height: 30px; /*высота строки ввода*/
     width: 200px;
     font-size: 14px; /*размер шрифта*/
     font-family: Arial;
     color:#737373;
+    margin-top: -5px;
 }
 
 
 .btn_enter {
-  border: none;
   color: #737373;
+  background-color: #f2f2f2;
   margin: 0 auto;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
   cursor: pointer;
   transition-duration: 0.4s;
   }
   .btn_enter:hover {
-  background-color: none;
+  background-color:#f2f2f2 ;
   color: #006699;
-  border: none;
+  border: #f2f2f2;
 }
 
 .menu_2 {
 margin-right: 30px;
-margin-top: 37px;
+margin-top: 25px;
 display: block;
 }
 .menu_2 li {
@@ -116,13 +125,13 @@ margin-right: 50px;
 }
 .logo_2 {
 height:25px;
-padding: 30px 0 20px 10px; /* 10 пиксл добавляются сверху, справа , снизу, слева,  */
+padding: 20px 0 20px 10px; /* 10 пиксл добавляются сверху, справа , снизу, слева,  */
 float:left;
 }
 
 .buy {
   float: right;
-  margin: 20px -95px 40px 0px;
+
 }
 .btn_buy10 {
     background-color: #0088cc; /* Blue */
@@ -138,6 +147,7 @@ float:left;
     border: none;
     cursor: pointer;
     transition-duration: 0.4s;
+    margin: 10px 125px 40px 0px;
   }
     .btn_buy10:hover {
     background-color: #006699;
@@ -146,10 +156,7 @@ float:left;
     padding-right: 25px;
     padding-left: 25px;
     padding-top: 15px;
-
     }
-
-
 
 /* Второй Контейнер  с текстом */
 .container_2 {
@@ -160,21 +167,90 @@ margin: 0px 150px 0px 150px;
 h1 {
   font-size: 60px;
   font-family: Arial;
+  font-weight: lighter; /* Выделение шрифта, жирный , не жирный */
   }
 
 p {
 
-  margin: 0;
+  margin: 2px;
 }
 
-/* Третий контейнер с текстом */
+/* Третий контейнер с картинкой*/
 .container_3 {
 background: url(images/Windows_Homepage_Hero_RS4_1920.jpg) no-repeat center / cover;
-height: 600px;
+height: 550px;
 margin: 0px 150px 0px 150px;
 }
+
+/* Четвертый контейнер с сервисами */
 .container_4 {
-height: 300px;
+height: 600px;
 background:none;
 margin: 0px 150px 0px 150px;
 }
+.line_4 {
+margin-top: 70px;
+color: #737373;
+}
+.question_4 {
+margin-top: 30px;
+font-size: 40px;
+}
+.services_item {   /* Задаем всем блокам одинаковое местоположение на странице */
+width: 397px;
+float: left;
+text-align: center;
+}
+.services_item h3 {
+font-size: 22px;
+font-weight: lighter;
+
+}
+.services_item p {
+font-size: 16px;
+
+
+}
+.btn_items {
+border: none;
+background-color: white;
+color: #0088cc;
+cursor: pointer;
+font-weight: bold;
+transition-duration: 0.4s;
+}
+.btn_items:hover {
+text-decoration: underline;
+}
+
+
+/* 5 контейнер image */
+.container_5 {
+
+height: 550px;
+background: url(images/Windows_Creators_Update_Hero_1920.jpg) no-repeat center / cover;
+margin: 0px 150px 0px 150px;
+}
+
+
+
+
+
+
+/* 6 контейнер */
+.container_6 {
+height: 550px;
+background:none;
+margin: 40px 150px 0px 150px;
+}
+.slide_1 {
+margin-right:20px;
+font-weight: bold;
+font-size: 20px;
+border-bottom: 2px solid #0088cc ;
+cursor: pointer;
+}
+.slide_2 {
+cursor: pointer;
+}
+.slide_2:hoover{}
