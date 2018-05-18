@@ -8,6 +8,7 @@ margin: 0;
 div {
 box-sizing: border-box;
 
+
 }
 .menu_Mcr {
 height:75px;
@@ -40,6 +41,9 @@ margin-right: 41px;
   text-decoration: none;
   text-transform: uppercase;
 }
+.menu_1 a:hover{
+border-bottom: 2px solid #737373  ;
+}
 .logo_1 {
 height:25px;
 padding: 20px 0 20px 10px; /* 10 пиксл добавляются сверху, справа , снизу, слева,  */
@@ -53,7 +57,7 @@ float: right;
 
 }
 .btn_cart{
-  background-color: #f2f2f2;
+  background-color: white;
   background-image: url(images/cart.png);
   background-repeat: no-repeat;
   background-position: 100% ;
@@ -73,26 +77,27 @@ float: right;
    .search_line {
     background-image: url(images/searchtool1.png);
     background-repeat: no-repeat; /*Убираем повтор изображения*/
-    background-position: 190px; /*Позиционируем*/
+    background-position: 240px; /*Позиционируем*/
     outline: none; /*убираем стандартную обводку браузера*/
-    -moz-border-radius: 5px; /*закругляем углы для Mozilla*/
-    -webkit-border-radius: 5px; /*закругляем углы для Chrome, Safari*/
-    border-radius: 5px; /*закругляем углы для остальных браузеров*/
-    border-color:#737373;
+    -moz-border-radius: 1px; /*закругляем углы для Mozilla*/
+    -webkit-border-radius: 1px; /*закругляем углы для Chrome, Safari*/
+    border-radius: 1px; /*закругляем углы для остальных браузеров*/
+    border-color:	#f2f2f2;
     border: 1px solid;
-    padding-right: 20px; /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
-    height: 30px; /*высота строки ввода*/
-    width: 200px;
+    padding-right: 20px; /*отступ справа от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/
+    padding-left: 10px;
+    height: 32px; /*высота строки ввода*/
+    width: 250px;
     font-size: 14px; /*размер шрифта*/
     font-family: Arial;
     color:#737373;
-    margin-top: -5px;
+    margin-top: 10px;
 }
 
 
 .btn_enter {
   color: #737373;
-  background-color: #f2f2f2;
+  background-color: white;
   margin: 0 auto;
   text-align: center;
   text-decoration: none;
@@ -103,7 +108,7 @@ float: right;
   transition-duration: 0.4s;
   }
   .btn_enter:hover {
-  background-color:#f2f2f2 ;
+  background-color: white;
   color: #006699;
   border: #f2f2f2;
 }
@@ -123,6 +128,10 @@ margin-right: 50px;
   text-decoration: none;
   text-transform: uppercase;
 }
+.menu_2 a:hover{
+border-bottom: 2px solid #0088cc  ;
+}
+
 .logo_2 {
 height:25px;
 padding: 20px 0 20px 10px; /* 10 пиксл добавляются сверху, справа , снизу, слева,  */
@@ -137,7 +146,6 @@ float:left;
     background-color: #0088cc; /* Blue */
     border: none;
     color: White;
-    margin: 0 auto;
     padding: 12px 30px;
     text-align: center;
     text-decoration: none;
@@ -146,17 +154,33 @@ float:left;
     border-radius: 4px;
     border: none;
     cursor: pointer;
-    transition-duration: 0.4s;
-    margin: 10px 125px 40px 0px;
+    transition: all 0.5s;
+    margin: 1px 6px 40px 0px;
   }
-    .btn_buy10:hover {
-    background-color: #006699;
-        color: white;
-    border: none;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-top: 15px;
-    }
+
+   .btn_buy10 span {
+       cursor: pointer;
+       display: inline-block;
+       position: relative;
+       transition: 0.5s;
+     }
+  .btn_buy10 span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -125px;
+        transition: 0.5s;
+}
+.btn_buy10:hover span {
+  padding-right: 170px;
+}
+.btn_buy10:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
 
 /* Второй Контейнер  с текстом */
 .container_2 {
@@ -190,7 +214,7 @@ margin: 0px 150px 0px 150px;
 }
 .line_4 {
 margin-top: 70px;
-color: #737373;
+color: #e6e6e6;
 }
 .question_4 {
 margin-top: 30px;
@@ -198,6 +222,7 @@ font-size: 40px;
 }
 .services_item {   /* Задаем всем блокам одинаковое местоположение на странице */
 width: 397px;
+height: 355px;
 float: left;
 text-align: center;
 }
@@ -208,7 +233,6 @@ font-weight: lighter;
 }
 .services_item p {
 font-size: 16px;
-
 
 }
 .btn_items {
@@ -233,13 +257,9 @@ margin: 0px 150px 0px 150px;
 }
 
 
-
-
-
-
 /* 6 контейнер */
 .container_6 {
-height: 550px;
+height: 200px;
 background:none;
 margin: 40px 150px 0px 150px;
 }
@@ -252,5 +272,59 @@ cursor: pointer;
 }
 .slide_2 {
 cursor: pointer;
+transition-duration: 0.4s;
+color: #b3b3b3;
 }
-.slide_2:hoover{}
+.slide_2:hover{
+color: #333333
+}
+/* Скрытый слайд
+.text_6text_6_hidden{
+display:none;
+}
+.slide_2_hidden  {
+margin-right:20px;
+font-weight: bold;
+font-size: 20px;
+border-bottom: 2px solid #0088cc ;
+cursor: pointer;
+}
+.slide_1_hidden {
+cursor: pointer;
+transition-duration: 0.4s;
+color: #b3b3b3;
+}
+.slide_1_hidden:hover{
+color: #333333
+}
+*/
+
+
+/* 7 контейнер */
+.container_7 {
+height: 450px;
+background:none;
+margin: 0px 150px 0px 150px;
+}
+/* 7 контейнер */
+.container_8 {
+height: 150px;
+background:none;
+margin: 0px 150px 0px 150px;
+}
+.items_8 {
+  color: #0088cc;
+  cursor: pointer;
+  font-weight: bold;
+  transition-duration: 0.4s;
+  margin: 0;
+  }
+  .items_8:hover {
+  text-decoration: underline;
+  }
+
+
+.container_9 {
+  background-color: #333333;
+  height:70px;
+}
