@@ -8,7 +8,6 @@ margin: 0;
 div {
 box-sizing: border-box;
 
-
 }
 .menu_Mcr {
 height:75px;
@@ -206,6 +205,10 @@ height: 550px;
 margin: 0px 150px 0px 150px;
 }
 
+.container_filler {
+  height: 70px;
+}
+
 /* Четвертый контейнер с сервисами */
 .container_4 {
 height: 600px;
@@ -213,7 +216,6 @@ background:none;
 margin: 0px 150px 0px 150px;
 }
 .line_4 {
-margin-top: 70px;
 color: #e6e6e6;
 }
 .question_4 {
@@ -306,6 +308,7 @@ height: 450px;
 background:none;
 margin: 0px 150px 0px 150px;
 }
+
 /* 7 контейнер */
 .container_8 {
 height: 150px;
@@ -322,9 +325,83 @@ margin: 0px 150px 0px 150px;
   .items_8:hover {
   text-decoration: underline;
   }
-
+  .services_item_8 {   /* Задаем всем блокам одинаковое местоположение на странице */
+  padding-top: 7px;
+  width: 399px;
+  height: 125px;
+  float: left;
+  text-align: center;
+  }
+  .margin_8 {
+  height: 85px;
+  }
+  .line_8 {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
 
 .container_9 {
   background-color: #333333;
-  height:70px;
-}
+  height:60px;
+  padding-left: 155px;
+  padding-right: 155px;
+
+  }
+  .note {
+    color: white;
+    font-size: 12px;
+    vertical-align: middle;
+  }
+  .text_9 {
+    padding-top: 20px;
+  }
+
+
+  .container_10 {
+    height:60px;
+  }
+    .text_10 {
+      padding-top: 20px;
+      padding-left: 150px;
+      float: left;
+      width: 949px;
+      font-size: 18px;
+    }
+
+    .container_11 {
+      height:355px;
+      background-color:#f2f2f2;
+    }
+  .table_11{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    background-color:#f2f2f2;
+  }
+  .table_11 td {
+  font-size: 11px;
+  color: #737373;
+  text-align: center;
+  cursor: pointer;
+  transition-duration: 0.4s;
+    }
+  .table_11 td:hover {
+  text-decoration: underline;
+  }
+    .table_11 th {
+    font-size: 14px;
+    color: #4d4d4d;
+      }
+
+  .bottom_12 {
+   height:50px;
+   background-color:#f2f2f2;
+   padding-left: 150px;
+   padding-right: 150px;
+   font-size: 11px;
+   color: #737373;
+  }
+  .bottom_left {
+    float:right;
+    padding: 20px;
+  }
