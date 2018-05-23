@@ -1,5 +1,5 @@
 body {
-font-family: Arial; sans-serif;
+font-family: 'Fira Sans Extra Condensed', sans-serif;
 padding: 0; /* обнуление рамок  */
 margin: 0;
 }
@@ -88,7 +88,7 @@ float: right;
     height: 32px; /*высота строки ввода*/
     width: 250px;
     font-size: 14px; /*размер шрифта*/
-    font-family: Arial;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
     color:#737373;
     margin-top: 10px;
 }
@@ -105,6 +105,7 @@ float: right;
   border: none;
   cursor: pointer;
   transition-duration: 0.4s;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
   }
   .btn_enter:hover {
   background-color: white;
@@ -162,6 +163,7 @@ float:left;
        display: inline-block;
        position: relative;
        transition: 0.5s;
+       font-family: 'Fira Sans Extra Condensed', sans-serif;
      }
   .btn_buy10 span:after {
         content: '\00bb';
@@ -189,7 +191,7 @@ margin: 0px 150px 0px 150px;
 }
 h1 {
   font-size: 60px;
-  font-family: Arial;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-weight: lighter; /* Выделение шрифта, жирный , не жирный */
   }
 
