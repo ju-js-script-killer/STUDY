@@ -33,3 +33,33 @@ if(position === 1) {
   medal = "pat on the back";
 }
 console.log(runner + " received a " + medal + " medal.");
+
+/* lesson 3. 6. Quiz: even or odd */
+var number = 12 % 3;
+if (number === 0) {
+  console.log("even");
+}
+else {
+console.log("odd");
+}
+
+/* lesson 3. 7. Quiz: musical group */
+var musicians = -10;
+if (musicians === 1) {
+    console.log ("solo");
+}
+else if (musicians === 2) {
+    console.log("duet");
+}
+else if (musicians === 3) {
+    console.log("trio");
+}
+else if (musicians === 4) {
+    console.log("quartet");
+}
+else if (musicians <= 0) {
+    console.log("not even a group");
+}
+else {
+    console.log ("this is a large group");
+}
