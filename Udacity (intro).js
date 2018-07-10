@@ -48,7 +48,7 @@ var musicians = -10;
 if (musicians === 1) {
     console.log ("solo");
 }
-else if (musicians === 2) {
+else if (musicians === 2) { 7
     console.log("duet");
 }
 else if (musicians === 3) {
