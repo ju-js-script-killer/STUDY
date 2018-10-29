@@ -1,0 +1,2 @@
+// For license information, see `http://assets.adobedtm.com/BL834ccc331b96464e8d2e94814c19cb85/RC466b4d85e96041a28ba5c65f232fd56d-source.js`.
+_satellite.__registerScript('//assets.adobedtm.com/BL834ccc331b96464e8d2e94814c19cb85/RC466b4d85e96041a28ba5c65f232fd56d-source.min.js', "null!=window.wdgtagging&&null!=window.wdgtagging.comscore&&function(g){g.init()}(window.wdgtagging.comscore,window.jQuery);");

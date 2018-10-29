@@ -25,11 +25,14 @@ var medal;
 
 if(position === 1) {
   medal = "gold";
-} else if(position === 2) {
+}
+ else if(position === 2) {
   medal = "silver";
-} else if(position === 3) {
+}
+ else if(position === 3) {
   medal = "bronze";
-} else {
+}
+ else {
   medal = "pat on the back";
 }
 console.log(runner + " received a " + medal + " medal.");
@@ -48,7 +51,7 @@ var musicians = -10;
 if (musicians === 1) {
     console.log ("solo");
 }
-else if (musicians === 2) { 7
+else if (musicians === 2) {
     console.log("duet");
 }
 else if (musicians === 3) {
