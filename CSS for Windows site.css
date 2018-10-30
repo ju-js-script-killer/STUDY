@@ -259,7 +259,7 @@ background: url(images/Windows_Creators_Update_Hero_1920.jpg) no-repeat center /
 margin: 0px 150px 0px 150px;
 }
 /* 5 контейнер image ( невидимый) */
-.container_hidden {
+.container_5_hidden {
 height: 550px;
 background: url(images/Windows_Homepage_WhyWindows_1920.jpg) no-repeat center / cover;
 margin: 0px 150px 0px 150px;
@@ -267,7 +267,7 @@ display: none;
 }
 /* 6 контейнер */
 .text_6 {
-
+display: block;
 }
 
 .container_6 {
