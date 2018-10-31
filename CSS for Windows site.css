@@ -202,10 +202,40 @@ p {
 
 /* Третий контейнер с картинкой*/
 .container_3 {
-background: url(images/Windows_Homepage_Hero_RS4_1920.jpg) no-repeat center / cover;
-height: 550px;
+height: 600px;
+width: 1602px;
 margin: 0px 150px 0px 150px;
+overflow-x: hidden;
 }
+.container_3 > div {
+  width: 500%;
+  height: 100%;
+}
+.container_3 > div::after {
+  content: '';
+  clear: both;
+  float: none;
+  display: table;
+}
+.container_3 > div > div {
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+
+.image_1 {
+background: url(images/Windows_Homepage_Hero_RS4_1920.jpg) no-repeat center / cover;
+}
+.image_2 {
+background: url(images/HomeFeatures_1920_Panel2_Hero_Home.jpg);
+}
+.image_3 {
+background: url(images/1920_Panel16_MultiFeature_ColorFilters.jpg);
+}
+.image_4 {
+background: url(images/1920_Panel16_MultiFeature_LearningTools.jpg);
+}
+
 
 .container_filler {
   height: 70px;
@@ -257,6 +287,7 @@ text-decoration: underline;
 height: 550px;
 background: url(images/Windows_Creators_Update_Hero_1920.jpg) no-repeat center / cover;
 margin: 0px 150px 0px 150px;
+display: block;
 }
 /* 5 контейнер image ( невидимый) */
 .container_5_hidden {
@@ -306,6 +337,7 @@ cursor: pointer;
 cursor: pointer;
 transition-duration: 0.4s;
 color: #b3b3b3;
+margin-right: 20px;
 }
 .slide_1_hidden:hover{
 color: #333333
