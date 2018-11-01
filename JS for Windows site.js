@@ -1,5 +1,4 @@
 // Слайдер в 3 контейнере
-window.onload = function() {
 /*var leftButton = document.querySelector('.left');
 var rightButton = document.querySelector('.right');
 var innerDiv = document.querySelector('.container_3 > div');//null?
@@ -28,7 +27,7 @@ rightButton.onclick = function() {
   }, 25);
 };
 };*/
-
+window.onload = function() {
 (function() {
   var sliderInnerDiv = document.querySelector('.container_3 > div');
   var leftButton = document.querySelector('.left');
@@ -55,7 +54,7 @@ rightButton.onclick = function() {
         sliderInnerDiv.style.marginLeft = margin + 'px';
       }, 3);
     }
-  }
+
 
   leftButton.onclick = function() {
     if (targetMargin < 0) {
@@ -73,9 +72,8 @@ rightButton.onclick = function() {
 })();
 };
 
-
 // Переключение в 6 контейнере
-window.onload = function() {
+
   var left_button = document.querySelector('.slide_1_hidden');
   var left_text = document.querySelector('.text_6');
   var left_img = document.querySelector('.container_5');
