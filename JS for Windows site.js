@@ -1,32 +1,17 @@
+/*
+var onloadFunctions = [];
+window.onload = function () {
+  for(var i =0; i < onloadFunctions.length; i++) {
+    onloadFunctions ();
+  }
+} ;
+
+onloadFunctions.push(function() {
+.......
+});
+*/
+
 // Слайдер в 3 контейнере
-/*var leftButton = document.querySelector('.left');
-var rightButton = document.querySelector('.right');
-var innerDiv = document.querySelector('.container_3 > div');//null?
-var margin = 0;
-var slideWidth = innerDiv.children[0].offsetWidth; // 1602px
-var targetMargin = 0;
-var speed = 10;
-leftButton.onclick = function() {
-  targetMargin += slideWidth;
-  var t = setInterval(function() {
-    margin += speed;
-    if (margin == targetMargin) {
-      clearInterval(t);
-    }
-    innerDiv.style.marginLeft = margin + 'px';
-  }, 25);
-};
-rightButton.onclick = function() {
-  targetMargin -= slideWidth;
-  var t = setInterval(function() {
-    margin -= speed;
-    if (margin == targetMargin) {
-      clearInterval(t);
-    }
-    innerDiv.style.marginLeft = margin + 'px';
-  }, 25);
-};
-};*/
 window.onload = function() {
   (function() {
     var sliderInnerDiv = document.querySelector('.container_3 > div');
